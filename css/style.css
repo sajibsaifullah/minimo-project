@@ -115,7 +115,7 @@ header {
 /* blog part-2 card start */
 .load-btn {
   text-align: center;
-  margin: 120px 0;
+  padding: 120px 0;
 }
 .load-btn p {
   padding: 20px 30px;
