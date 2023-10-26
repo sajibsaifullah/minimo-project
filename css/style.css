@@ -120,9 +120,12 @@ header {
 .load-btn button {
   padding: 20px 30px;
   display: inline;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-weight: 400;
   background-color: transparent;
   border: 1px solid #626262;
-  transition: linear .33s;
+  transition: linear 0.33s;
 }
 .load-btn button:hover {
   color: #fff;
@@ -185,7 +188,7 @@ header {
     padding-top: 30px;
     text-align: center;
   }
-  .pt{
+  .pt {
     padding-top: 5px;
   }
 }
