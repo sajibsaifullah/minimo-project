@@ -117,12 +117,16 @@ header {
   text-align: center;
   padding: 120px 0;
 }
-.load-btn p {
+.load-btn button {
   padding: 20px 30px;
   display: inline;
-  border: 1px solid #000000;
+  background-color: transparent;
+  border: 1px solid #626262;
+  transition: linear .33s;
 }
-.load-btn p:hover {
+.load-btn button:hover {
+  color: #fff;
+  background-color: #626262;
   cursor: pointer;
 }
 /* blog part-2 card end */
