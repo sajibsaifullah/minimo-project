@@ -10,6 +10,7 @@ body {
   color: #626262;
 }
 /* common styles end */
+
 /* header start */
 header {
   padding: 30px 0;
@@ -40,11 +41,13 @@ header {
   border-bottom: 1px solid #626262;
 }
 /* header end */
+
 /* banner start */
 .banner img {
   width: 100%;
 }
 /* banner end */
+
 /* getaway start */
 .container-2 {
   margin: 0 auto;
@@ -69,6 +72,7 @@ header {
   line-height: 24px;
 }
 /* getaway end */
+
 /* blog part-1 card start */
 .blogs {
   display: grid;
@@ -81,6 +85,7 @@ header {
 }
 
 /* blog part-1 card end */
+
 /* newsletter start */
 .newsletter {
   margin: 100px 0;
@@ -88,30 +93,40 @@ header {
 }
 .content {
   text-align: center;
-  padding: 60px 0;
+  padding: 50px 0;
+}
+.margin{
+  margin: 0 0 100px 0;
 }
 .form {
-  padding-top: 70px;
-  display: inline-block;
-  border-bottom: 1px solid #000000;
+  width: 350px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  position: relative;
 }
 .form input {
-  width: 300px;
-  height: 40px;
-  font-size: 14px;
-  background-color: #f0f0f0;
-  border: 1px solid transparent;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid black;
   outline: 0;
-  /* position: relative; */
+  width: 300px;
+  font-size: 16px;
+  padding: 10px 40px 10px 10px;
+  
 }
 .form button {
-  /* position: absolute; */
-  border: 1px solid transparent;
+  border: none;
+  background: transparent;
+  position: absolute;
+  top: 12px;
+  right: 0px;
 }
 .form button:hover {
   cursor: pointer;
 }
 /* newsletter end */
+
 /* blog part-2 card start */
 .load-btn {
   text-align: center;
@@ -133,8 +148,9 @@ header {
   cursor: pointer;
 }
 /* blog part-2 card end */
+
 /* footer start */
-.footer {
+footer {
   height: 100px;
   background-color: #f0f0f0;
 }
@@ -152,6 +168,7 @@ header {
   padding-left: 25px;
 }
 /* footer end */
+
 /* responsive */
 @media only screen and (max-width: 576px) {
   /* header */
